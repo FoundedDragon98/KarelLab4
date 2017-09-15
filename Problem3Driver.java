@@ -6,9 +6,9 @@ import java.awt.Color;
 public class Problem3Driver implements Directions
 {
     public static void main(String args[])  {
-        Problem3 lucy = new Problem3(1,6,North,0);
+        Problem3 lucy = new Problem3(7,5,East,-1);
         lucy.closeAllWindows();
-        lucy.turnOff();
+        
         
     } 
 
@@ -18,7 +18,7 @@ public class Problem3Driver implements Directions
         World.setBeeperColor(Color.magenta);
         World.setStreetColor(Color.blue);
         World.setNeutroniumColor(Color.green.darker());
-        World.setDelay(3);  
+        World.setDelay(1);  
         World.setVisible(true);
     }
 }
